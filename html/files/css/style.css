@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import "common/layout.css";
+
+/*-------------------------------------------------------------------------
+	All
+/*-----------------------------------------------------------------------*/
+#all {
+	padding:50px;
+}
+
+	#all h1 {
+		margin-bottom:20px;
+		font-size:24px;
+	}
+
+	#all ul {
+	}
+	
+		#all ul li {
+			float:left;
+			width:10%;
+			margin-right:5px;
+			padding:10px;
+			border:1px solid #aaa;
+			background:#fff;
+			text-align:center;
+			cursor:pointer;
+		}
+		
+		#all ul li:hover {
+			background-color:#eee;
+		}
+		
+		#all ul li.buried {
+			background-color:#ddd;
+			text-decoration:line-through;
+			cursor:default;
+		}
